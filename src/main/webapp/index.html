@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Main Container -->
+    <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-green-400 to-blue-500 p-4 text-white">
+        
+        <!-- Content -->
+        <div class="text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4">Hello Buddy!</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl">
+                This is a Simple Login-Register Web project created using JSP and servlets with 💓 by Kunal.
+            </p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+            <a href="login.jsp"
+               class="bg-white text-blue-600 font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transform hover:-translate-y-1 transition-all duration-300 shadow-lg">
+                Login
+            </a>
+            <a href="register.jsp"
+               class="bg-purple-600 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transform hover:-translate-y-1 transition-all duration-300 shadow-lg">
+                Register
+            </a>
+        </div>
+    </div>
+</body>
+</html>
